@@ -2,11 +2,10 @@ import React from "react"
 
 export default function Navbar(){
     return(
-        <div className="Top">
-            <h1>Overload</h1>
-            <h2>About</h2>
-            <h2>Contact</h2>
-            <h2>exercise</h2>
-        </div>
+        
+        <nav className="nav">
+            <h1 className="nav-logo_text">Overload</h1>
+            <h3 className="nav-text">exercise</h3 >
+        </nav>
     )
 }

@@ -1,3 +1,30 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.nav {
+  display: flex;
+  background-color: #21222a;
+  align-items: center;
+  color: white;
+  height: 50px;
+  padding: 30px 35px 30px 30px;
+  margin: -10px;
+  font-family: "Edu TAS Beginner", san-serif;
+}
+
+.nav-logo_text {
+  margin: 0;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.nav-text {
+  margin-right: 2vw;
+  margin-top: 2vw;
+  position: absolute;
+  right: 0;  
+  font-weight: 700;
+  font-size: 30px;
+}
+
