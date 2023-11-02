@@ -23,8 +23,13 @@
   margin-right: 2vw;
   margin-top: 2vw;
   position: absolute;
-  right: 0;  
+  right: 0;
   font-weight: 700;
   font-size: 30px;
 }
 
+.day-of-week {
+  text-align: center;
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 40px;
+}
