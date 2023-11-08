@@ -1,4 +1,5 @@
 import React from "react"
+import Table from "./Table";
 
 export default function Home(){
     const days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
@@ -8,6 +9,9 @@ export default function Home(){
     return(
         <div className="day-of-week">
         <h1>Today is {day}!</h1>
+        {/* <Table /> */}
+       
         </div>
+        
     )
 }

@@ -33,3 +33,9 @@
   font-family: "Noto Sans KR", sans-serif;
   font-size: 40px;
 }
+
+.block-image {
+  background-color: red;
+  border-radius: 9px;
+  margin-bottom: 9px;
+}
