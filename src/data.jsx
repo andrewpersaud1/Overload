@@ -1,12 +1,25 @@
 export default [
     {
         id: 1,
-        title: "Life Lessons with Katie Zaferes",
-        description: "I will share with you what I call \"Positively Impactful Moments of Disappointment.\" Throughout my career, many of my highest moments only came after setbacks and losses. But learning from those difficult moments is what gave me the ability to rise above them and reach my goals.",
-        price: 136,
-        coverImg: "katie-zaferes.png",
+        title: "Bench Press",
+        description: "The bench press is a popular strength training exercise that primarily targets the muscles of the chest, shoulders, and triceps. It is a compound movement, meaning it involves multiple joints and muscle groups working together. ",
+        importance: "strength important",
+        coverImg: "benchpress",
         stats: {
-            rating: 5.0,
-            reviewCount: 6
+            difficulty: "Hard to perfect",
+            targetmuscle: "chest, triceps, shoulders",
         }
-    }]
+    },
+    {
+        id: 1,
+        title: "Bench Press",
+        description: "The bench press is a popular strength training exercise that primarily targets the muscles of the chest, shoulders, and triceps. It is a compound movement, meaning it involves multiple joints and muscle groups working together. ",
+        importance: "strength important",
+        coverImg: "benchpress",
+        stats: {
+            difficulty: "Hard to perfect",
+            targetmuscle: "chest, triceps, shoulders",
+        }
+    }
+    
+]
