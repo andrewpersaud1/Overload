@@ -1,6 +1,7 @@
 import React from "react"
 import Table from "./Table";
 
+
 export default function Home(){
     const days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
     const d = new Date()

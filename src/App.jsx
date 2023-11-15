@@ -3,7 +3,7 @@ import Navbar from "./Navbar"
 import Home from "./Home"
 import Exercise from './Exercise.jsx'
 import data from "./data.jsx"
-
+import Table from "./Table.jsx"
 
 function App() {
   const exercise = data.map(item => {
@@ -17,8 +17,9 @@ function App() {
   return(
     <div>
     <Navbar/>
-    {/* <Home/> */}
-    {exercise}
+    <Home/>
+    {/* {exercise} */}
+    <Table />
     </div>
   )
 }
